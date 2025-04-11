@@ -1,0 +1,70 @@
+/* mainpage.css */
+*{
+    color: black;
+    border-radius: 5;
+}
+.wrapper {
+    background-color: #2c2c2c;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+/* .main-container {
+    display: flex;
+    height: 100vh;
+    background-color: #1e1e1e; /* Dark theme */
+    /* align-items: stretch; *//* Ensures sidebar height matches content */
+    /*padding: 20px; */
+     /* 
+  } */
+  .main-container {
+    display: flex;
+    border-radius: 30px; /* Adjust for desired roundness */
+    overflow: hidden; /* Ensures corners stay rounded */
+    background-color: #101010; /* Choose your background color */
+    width: 90%;
+    max-width: 95vw; /* Adjust based on your design */
+    margin: auto; /* Centers it on the page */
+    height: 95vh; /* Adjust based on content */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+    margin:50px;
+  }
+  
+  
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: white;
+    height:80vh;
+    margin:20px;
+    
+  }
+  
+  .task-time-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .task-list-container {
+    flex: 2;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .right-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
